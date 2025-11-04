@@ -1,0 +1,144 @@
+╔═══════════════════════════════════════════════════════════════════╗
+║                     TEZKOR SOZLASH YO'RIQNOMASI                   ║
+║                     QUICK SETUP GUIDE                             ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+🇺🇿 O'ZBEK TILIDA:
+═══════════════════════════════════════════════════════════════════
+
+📋 BOSQICHLAR:
+
+1️⃣  GEMINI API KALITINI OLING
+    
+    • https://makersuite.google.com/app/apikey sahifasiga kiring
+    • Google akkauntingiz bilan tizimga kiring  
+    • "Create API Key" tugmasini bosing
+    • API kalitni nusxalab oling
+    
+    ⚠️  API kalit bepul, lekin Google akkaunt kerak!
+
+2️⃣  HTML FAYLINI TAHRIRLANG
+
+    • uzbek-test-website.html faylini matn muharririda oching
+      (Notepad++, VS Code, Sublime Text, hatto oddiy Notepad)
+    
+    • CTRL+F bosing va "YOUR_GEMINI_API_KEY_HERE" qidiring
+    
+    • Bu qatorni toping:
+      const GEMINI_API_KEY = 'YOUR_GEMINI_API_KEY_HERE';
+    
+    • O'z API kalitingiz bilan almashtiring:
+      const GEMINI_API_KEY = 'AIzaSyD...sizning_kalitingiz';
+    
+    • Faylni saqlang (CTRL+S)
+
+3️⃣  SAYTNI OCHING
+
+    • uzbek-test-website.html faylini brauzerda oching
+      (fayl ustiga ikki marta bosing)
+    
+    • Test boshlang!
+
+═══════════════════════════════════════════════════════════════════
+
+✅ TEKSHIRISH:
+
+• Agar "API Kaliti O'rnatilmagan" xatosi ko'rsatilsa:
+  ➜ 2-bosqichni qaytadan bajaring
+  ➜ API kalit qo'shtirnoqlar ichida ekanligini tekshiring
+  ➜ Faylni saqlashni unutmang!
+
+• Agar "API error" ko'rsatilsa:
+  ➜ Internet aloqangizni tekshiring
+  ➜ API kalit to'g'ri nusxalanganligini tekshiring
+  ➜ Google AI Studio'da kalitingiz faol ekanligini tekshiring
+
+═══════════════════════════════════════════════════════════════════
+
+🇬🇧 ENGLISH:
+═══════════════════════════════════════════════════════════════════
+
+📋 STEPS:
+
+1️⃣  GET GEMINI API KEY
+    
+    • Go to https://makersuite.google.com/app/apikey
+    • Sign in with your Google account
+    • Click "Create API Key"
+    • Copy the API key
+    
+    ⚠️  API key is free, but requires Google account!
+
+2️⃣  EDIT HTML FILE
+
+    • Open uzbek-test-website.html in a text editor
+      (Notepad++, VS Code, Sublime Text, or even Notepad)
+    
+    • Press CTRL+F and search for "YOUR_GEMINI_API_KEY_HERE"
+    
+    • Find this line:
+      const GEMINI_API_KEY = 'YOUR_GEMINI_API_KEY_HERE';
+    
+    • Replace with your API key:
+      const GEMINI_API_KEY = 'AIzaSyD...your_key_here';
+    
+    • Save the file (CTRL+S)
+
+3️⃣  OPEN THE WEBSITE
+
+    • Open uzbek-test-website.html in your browser
+      (double-click the file)
+    
+    • Start testing!
+
+═══════════════════════════════════════════════════════════════════
+
+✅ TROUBLESHOOTING:
+
+• If you see "API Key Not Set" error:
+  ➜ Repeat step 2
+  ➜ Make sure API key is inside quotes
+  ➜ Don't forget to save the file!
+
+• If you see "API error":
+  ➜ Check your internet connection
+  ➜ Verify API key is copied correctly
+  ➜ Check if your key is active in Google AI Studio
+
+═══════════════════════════════════════════════════════════════════
+
+⚠️  XAVFSIZLIK / SECURITY WARNING:
+
+• API kalit ochiq kodda - faqat shaxsiy foydalanish uchun!
+• API key is in plain code - for personal use only!
+• GitHub'ga yoki public joyga yuklamang!
+• Don't upload to GitHub or public hosting!
+
+═══════════════════════════════════════════════════════════════════
+
+💡 MASLAHATLAR / TIPS:
+
+✨ Test topshiring va AI tahlilini ko'ring
+✨ Turli tillarda va darajalarda sinab ko'ring  
+✨ Natijalaringizni do'stlaringiz bilan baham ko'ring
+✨ O'z savollaringizni questions.json faylida qo'shing
+
+═══════════════════════════════════════════════════════════════════
+
+📞 YORDAM / HELP:
+
+Muammo yuzaga kelsa:
+• README.md faylini o'qing
+• Browser console'ni tekshiring (F12)
+• API kalit to'g'ri joylashganligini ikki marta tekshiring
+
+If you encounter issues:
+• Read README.md file
+• Check browser console (F12)
+• Double-check API key placement
+
+═══════════════════════════════════════════════════════════════════
+
+Muvaffaqiyat tilaymiz! / Good luck! 🚀
+
+Made with ❤️ for Uzbek Developers

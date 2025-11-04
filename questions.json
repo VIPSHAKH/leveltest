@@ -1,0 +1,1379 @@
+[
+  {
+    "language": "Python",
+    "level": "Junior",
+    "questions": [
+      {
+        "question": "Quyidagi kod natijasini toping: print(2 ** 3)",
+        "options": ["5", "6", "8", "9"],
+        "correct": 2
+      },
+      {
+        "question": "Python'da qator (string) yaratish uchun qaysi belgi ishlatiladi?",
+        "options": ["Faqat '", "Faqat \"", "' yoki \"", "Faqat ``"],
+        "correct": 2
+      },
+      {
+        "question": "List ichidagi elementlarni teskarisiga o'girish uchun qaysi metod ishlatiladi?",
+        "options": [".sort()", ".reverse()", ".flip()", ".invert()"],
+        "correct": 1
+      },
+      {
+        "question": "Quyidagi kodning natijasi nima? len([1, 2, 3, 4, 5])",
+        "options": ["4", "5", "6", "Xatolik"],
+        "correct": 1
+      },
+      {
+        "question": "Python'da izoh qo'shish uchun qaysi belgi ishlatiladi?",
+        "options": ["//", "#", "/*", "--"],
+        "correct": 1
+      },
+      {
+        "question": "Quyidagi qaysi biri to'g'ri o'zgaruvchi nomi?",
+        "options": ["2variable", "variable-name", "variable_name", "variable name"],
+        "correct": 2
+      },
+      {
+        "question": "Quyidagi kod natijasi: type(3.14)",
+        "options": ["<class 'int'>", "<class 'float'>", "<class 'double'>", "<class 'number'>"],
+        "correct": 1
+      },
+      {
+        "question": "Python'da mantiqiy qiymatlar qanday yoziladi?",
+        "options": ["true/false", "True/False", "TRUE/FALSE", "1/0"],
+        "correct": 1
+      },
+      {
+        "question": "Quyidagi operator natijasi: 10 // 3",
+        "options": ["3", "3.333", "3.0", "4"],
+        "correct": 0
+      },
+      {
+        "question": "List'ga element qo'shish uchun qaysi metod ishlatiladi?",
+        "options": [".add()", ".append()", ".insert()", ".push()"],
+        "correct": 1
+      },
+      {
+        "question": "Dictionary yaratishning to'g'ri usuli qaysi?",
+        "options": ["d = {}", "d = []", "d = ()", "d = <>"],
+        "correct": 0
+      },
+      {
+        "question": "Range(5) natijasi nechta element beradi?",
+        "options": ["4", "5", "6", "Xatolik"],
+        "correct": 1
+      },
+      {
+        "question": "String uzunligini olish uchun qaysi funksiya ishlatiladi?",
+        "options": ["length()", "size()", "len()", "count()"],
+        "correct": 2
+      },
+      {
+        "question": "Quyidagi qaysi biri Python'da to'g'ri if statement?",
+        "options": ["if x = 5:", "if (x == 5)", "if x == 5:", "if x == 5 then:"],
+        "correct": 2
+      },
+      {
+        "question": "Faylni o'qish rejimida ochish uchun qaysi parameter ishlatiladi?",
+        "options": ["'r'", "'w'", "'a'", "'x'"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "language": "Python",
+    "level": "Middle",
+    "questions": [
+      {
+        "question": "Decorator nima?",
+        "options": ["O'zgaruvchi", "Funksiyani o'zgartiruvchi funksiya", "Class", "Module"],
+        "correct": 1
+      },
+      {
+        "question": "List comprehension sintaksisi qaysi?",
+        "options": ["[x for x in range(10)]", "{x for x in range(10)}", "(x for x in range(10))", "list(x for x in range(10))"],
+        "correct": 0
+      },
+      {
+        "question": "*args va **kwargs nima uchun ishlatiladi?",
+        "options": ["Xatoliklarni ushlash", "O'zgaruvchan parametrlar", "Fayl ishlash", "Class yaratish"],
+        "correct": 1
+      },
+      {
+        "question": "Lambda funksiya nima?",
+        "options": ["Katta funksiya", "Anonim funksiya", "Class metodi", "Generator"],
+        "correct": 1
+      },
+      {
+        "question": "with operatori nima uchun ishlatiladi?",
+        "options": ["Sikl yaratish", "Context manager", "Exception handling", "Import qilish"],
+        "correct": 1
+      },
+      {
+        "question": "__init__ metodi nima?",
+        "options": ["Destructor", "Constructor", "Static metod", "Class metodi"],
+        "correct": 1
+      },
+      {
+        "question": "Generator va iterator o'rtasidagi farq nima?",
+        "options": ["Farqi yo'q", "Generator lazy evaluation qiladi", "Iterator tezroq", "Generator klassda ishlatiladi"],
+        "correct": 1
+      },
+      {
+        "question": "GIL (Global Interpreter Lock) nima?",
+        "options": ["Memory manager", "Thread synchronization mexanizmi", "Garbage collector", "Compiler"],
+        "correct": 1
+      },
+      {
+        "question": "Qaysi data structure FIFO prinsipi bilan ishlaydi?",
+        "options": ["Stack", "Queue", "Set", "Dictionary"],
+        "correct": 1
+      },
+      {
+        "question": "Mutable va immutable objects o'rtasidagi farq nima?",
+        "options": ["Mutable o'zgarishi mumkin", "Immutable tezroq", "Farqi yo'q", "Mutable xotirani ko'p oladi"],
+        "correct": 0
+      },
+      {
+        "question": "map() funksiyasi nima qiladi?",
+        "options": ["Dictionary yaratadi", "Har bir elementga funksiya qo'llaydi", "Sort qiladi", "Filter qiladi"],
+        "correct": 1
+      },
+      {
+        "question": "Property decorator nima uchun ishlatiladi?",
+        "options": ["Metodlarni bezash", "Getter/setter yaratish", "Class yaratish", "Import qilish"],
+        "correct": 1
+      },
+      {
+        "question": "Yield kalit so'zi nima uchun ishlatiladi?",
+        "options": ["Exception throw qilish", "Generator yaratish", "Return qilish", "Import qilish"],
+        "correct": 1
+      },
+      {
+        "question": "super() funksiyasi nima qiladi?",
+        "options": ["Yangi class yaratadi", "Parent class'ga murojaat qiladi", "Object yaratadi", "Metodlarni o'chiradi"],
+        "correct": 1
+      },
+      {
+        "question": "Qaysi collection tartiblangan va o'zgaruvchan?",
+        "options": ["Tuple", "Set", "List", "Frozenset"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "language": "Python",
+    "level": "Senior",
+    "questions": [
+      {
+        "question": "Metaclass nima?",
+        "options": ["Katta class", "Class yaratuvchi class", "Abstract class", "Interface"],
+        "correct": 1
+      },
+      {
+        "question": "Asyncio event loop qanday ishlaydi?",
+        "options": ["Sinxron kod yozish", "Concurrent task'larni boshqarish", "Parallel processing", "Threading"],
+        "correct": 1
+      },
+      {
+        "question": "Descriptor protocol nima?",
+        "options": ["Fayl protokoli", "Attribute access'ni boshqarish", "Network protokol", "Import mexanizmi"],
+        "correct": 1
+      },
+      {
+        "question": "Weak reference nima uchun ishlatiladi?",
+        "options": ["Performance uchun", "Memory leak oldini olish", "Type checking", "Error handling"],
+        "correct": 1
+      },
+      {
+        "question": "Context manager protokoli qanday implement qilinadi?",
+        "options": ["__init__ va __del__", "__enter__ va __exit__", "__get__ va __set__", "__call__ va __new__"],
+        "correct": 1
+      },
+      {
+        "question": "Monkey patching nima?",
+        "options": ["Bug fix qilish", "Runtime'da kod o'zgartirish", "Testing metodi", "Deployment usuli"],
+        "correct": 1
+      },
+      {
+        "question": "GIL qachon problem bo'ladi?",
+        "options": ["I/O operatsiyalarda", "CPU-intensive tasklarda", "Memory allocationda", "Hech qachon"],
+        "correct": 1
+      },
+      {
+        "question": "Abstract Base Class (ABC) nima uchun kerak?",
+        "options": ["Performance", "Interface enforce qilish", "Memory management", "Error handling"],
+        "correct": 1
+      },
+      {
+        "question": "__slots__ nima uchun ishlatiladi?",
+        "options": ["Ko'proq attribute qo'shish", "Memory optimizatsiya", "Performance kamaytirish", "Type checking"],
+        "correct": 1
+      },
+      {
+        "question": "Coroutine va subroutine o'rtasidagi asosiy farq?",
+        "options": ["Tezlik farqi", "Coroutine to'xtatilishi va davom ettirilishi mumkin", "Memory ishlashi", "Type sistemasi"],
+        "correct": 1
+      },
+      {
+        "question": "Copy va deepcopy o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "Deepcopy nested objects'ni ham nusxalaydi", "Copy tezroq", "Deepcopy faqat dict uchun"],
+        "correct": 1
+      },
+      {
+        "question": "Type hints runtime'da ishlaydi?",
+        "options": ["Ha", "Yo'q", "Faqat debug rejimda", "Python versiyasiga bog'liq"],
+        "correct": 1
+      },
+      {
+        "question": "Multiprocessing va multithreading o'rtasidagi asosiy farq?",
+        "options": ["Tezlik", "Multiprocessing GIL muammosini hal qiladi", "Memory ishlashi", "Farqi yo'q"],
+        "correct": 1
+      },
+      {
+        "question": "__new__ va __init__ o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "__new__ instance yaratadi, __init__ initialize qiladi", "__init__ oldin ishlaydi", "__new__ faqat meros uchun"],
+        "correct": 1
+      },
+      {
+        "question": "Context variable nima uchun kerak?",
+        "options": ["Global variable o'rniga", "Context-local state uchun", "Performance", "Error handling"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "language": "JavaScript",
+    "level": "Junior",
+    "questions": [
+      {
+        "question": "JavaScript'da o'zgaruvchi e'lon qilish uchun qaysi kalit so'z ishlatiladi?",
+        "options": ["var, let, const", "int, float, string", "variable, constant", "define, set"],
+        "correct": 0
+      },
+      {
+        "question": "Quyidagi kod natijasi: typeof null",
+        "options": ["'null'", "'undefined'", "'object'", "'number'"],
+        "correct": 2
+      },
+      {
+        "question": "Array'ga element qo'shish uchun qaysi metod ishlatiladi?",
+        "options": [".add()", ".push()", ".append()", ".insert()"],
+        "correct": 1
+      },
+      {
+        "question": "Quyidagi operator natijasi: 5 + '5'",
+        "options": ["10", "'55'", "55", "Xatolik"],
+        "correct": 1
+      },
+      {
+        "question": "Console'ga ma'lumot chiqarish uchun qaysi metod ishlatiladi?",
+        "options": ["print()", "echo()", "console.log()", "write()"],
+        "correct": 2
+      },
+      {
+        "question": "== va === o'rtasidagi farq nima?",
+        "options": ["Farqi yo'q", "=== tip ham tekshiradi", "== tezroq", "=== faqat raqamlar uchun"],
+        "correct": 1
+      },
+      {
+        "question": "Funksiya e'lon qilishning to'g'ri usuli qaysi?",
+        "options": ["def myFunction()", "function myFunction()", "func myFunction()", "myFunction function()"],
+        "correct": 1
+      },
+      {
+        "question": "Array uzunligini olish uchun qaysi xususiyat ishlatiladi?",
+        "options": [".size", ".length", ".count", ".total"],
+        "correct": 1
+      },
+      {
+        "question": "JavaScript'da izoh qanday yoziladi?",
+        "options": ["# comment", "/* comment */", "// comment", "B va C to'g'ri"],
+        "correct": 3
+      },
+      {
+        "question": "undefined qachon paydo bo'ladi?",
+        "options": ["O'zgaruvchi e'lon qilinmagan", "O'zgaruvchi e'lon qilingan lekin qiymat berilmagan", "null qiymat berilgan", "0 qiymat berilgan"],
+        "correct": 1
+      },
+      {
+        "question": "String'ni birlashtirish uchun qaysi operator ishlatiladi?",
+        "options": ["+", "&", ".", "concat"],
+        "correct": 0
+      },
+      {
+        "question": "Object yaratishning to'g'ri usuli qaysi?",
+        "options": ["let obj = {}", "let obj = []", "let obj = ()", "let obj = <>"],
+        "correct": 0
+      },
+      {
+        "question": "Quyidagi qaysi biri false qiymat?",
+        "options": ["''", "'0'", "'false'", "[]"],
+        "correct": 0
+      },
+      {
+        "question": "Array'dan element o'chirish uchun qaysi metod ishlatiladi?",
+        "options": [".delete()", ".remove()", ".pop()", ".clear()"],
+        "correct": 2
+      },
+      {
+        "question": "parseInt('10px') natijasi nima?",
+        "options": ["10", "NaN", "10px", "Error"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "language": "JavaScript",
+    "level": "Middle",
+    "questions": [
+      {
+        "question": "Closure nima?",
+        "options": ["Funksiya ichidagi o'zgaruvchi", "Funksiya o'zining scope'ini eslab qoladi", "Loop turi", "Class metodi"],
+        "correct": 1
+      },
+      {
+        "question": "Async/await nima uchun ishlatiladi?",
+        "options": ["Sinxron kod yozish", "Asinxron kodni oson boshqarish", "Xatoliklarni ushlash", "DOM manipulyatsiya"],
+        "correct": 1
+      },
+      {
+        "question": "Promise'ning qaysi holatlari bor?",
+        "options": ["pending, fulfilled, rejected", "start, end, error", "loading, success, fail", "init, done, error"],
+        "correct": 0
+      },
+      {
+        "question": "Event delegation nima?",
+        "options": ["Eventni o'chirish", "Parent elementga event qo'shib child'larni boshqarish", "Event yaratish", "Event nusxalash"],
+        "correct": 1
+      },
+      {
+        "question": "Arrow function va regular function o'rtasidagi asosiy farq?",
+        "options": ["Arrow tezroq", "Arrow'da 'this' context boshqacha", "Farqi yo'q", "Arrow faqat return qiladi"],
+        "correct": 1
+      },
+      {
+        "question": "Spread operator (...) nima qiladi?",
+        "options": ["Array/Object'ni yoyadi", "Loop yaratadi", "Funksiya chaqiradi", "O'zgaruvchi yaratadi"],
+        "correct": 0
+      },
+      {
+        "question": "Hoisting nima?",
+        "options": ["O'zgaruvchi/funksiya e'lonlarini tepaga ko'tarish", "DOM manipulyatsiya", "Event handling", "Type conversion"],
+        "correct": 0
+      },
+      {
+        "question": "Map va forEach o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "Map yangi array qaytaradi", "forEach tezroq", "Map faqat raqamlar uchun"],
+        "correct": 1
+      },
+      {
+        "question": "Prototype chain nima?",
+        "options": ["Array metodi", "Object inheritance mexanizmi", "String operatsiya", "Loop turi"],
+        "correct": 1
+      },
+      {
+        "question": "let va const o'rtasidagi farq?",
+        "options": ["let tezroq", "const o'zgartirib bo'lmaydi", "Farqi yo'q", "let global scope"],
+        "correct": 1
+      },
+      {
+        "question": "Debouncing va throttling o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "Debouncing kechiktiradi, throttling cheklaydi", "Throttling tezroq", "Debouncing faqat input uchun"],
+        "correct": 1
+      },
+      {
+        "question": "Call, apply, bind o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "Call va apply darhol chaqiradi, bind yangi funksiya qaytaradi", "Call eng tezi", "Bind deprecated"],
+        "correct": 1
+      },
+      {
+        "question": "WeakMap va Map o'rtasidagi farq?",
+        "options": ["WeakMap kuchsizroq", "WeakMap garbage collection uchun yaxshi", "Map tezroq", "Farqi yo'q"],
+        "correct": 1
+      },
+      {
+        "question": "Rest parameter nima?",
+        "options": ["Funksiya to'xtatish", "Qolgan argumentlarni array ga yig'ish", "Loop turi", "Error handling"],
+        "correct": 1
+      },
+      {
+        "question": "Template literals nima uchun kerak?",
+        "options": ["HTML yaratish", "String interpolation", "Style qo'shish", "Array yaratish"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "language": "JavaScript",
+    "level": "Senior",
+    "questions": [
+      {
+        "question": "Event loop qanday ishlaydi?",
+        "options": ["Sinxron kod bajaradi", "Call stack, callback queue va microtask queue'ni boshqaradi", "Parallel processing", "DOM manipulyatsiya"],
+        "correct": 1
+      },
+      {
+        "question": "Microtask va macrotask o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "Microtask avval bajariladi", "Macrotask tezroq", "Microtask faqat promise uchun"],
+        "correct": 1
+      },
+      {
+        "question": "Proxy object nima uchun ishlatiladi?",
+        "options": ["Network request", "Object operatsiyalarini intercept qilish", "Caching", "Error handling"],
+        "correct": 1
+      },
+      {
+        "question": "Reflect API nima uchun kerak?",
+        "options": ["Mirror yaratish", "Meta-programming operatsiyalari", "DOM manipulation", "Event handling"],
+        "correct": 1
+      },
+      {
+        "question": "Memory leak qachon yuz beradi?",
+        "options": ["Event listener o'chirilmasa", "Har doim", "Faqat callback'larda", "Hech qachon"],
+        "correct": 0
+      },
+      {
+        "question": "Currying nima?",
+        "options": ["Funksiya dekoratsiyasi", "Funksiyani qisman qo'llash", "Error handling", "Type checking"],
+        "correct": 1
+      },
+      {
+        "question": "Generator function qachon foydali?",
+        "options": ["Har doim", "Lazy iteration kerak bo'lganda", "Performance uchun", "Debugging uchun"],
+        "correct": 1
+      },
+      {
+        "question": "Symbol nima uchun kerak?",
+        "options": ["Emoji qo'shish", "Unique identifier yaratish", "Math operatsiyalar", "String formatting"],
+        "correct": 1
+      },
+      {
+        "question": "Service Worker nima?",
+        "options": ["Backend worker", "Browser'da proxy script", "Database worker", "UI thread"],
+        "correct": 1
+      },
+      {
+        "question": "Module bundler (Webpack) nima qiladi?",
+        "options": ["Code yozadi", "Fayllarni birlashtiradi va optimizatsiya qiladi", "Test yozadi", "Deploy qiladi"],
+        "correct": 1
+      },
+      {
+        "question": "Tree shaking nima?",
+        "options": ["Animation", "Unused kod o'chirish", "DOM manipulation", "Error handling"],
+        "correct": 1
+      },
+      {
+        "question": "Critical rendering path nima?",
+        "options": ["Server path", "Browser'da sahifa render qilish jarayoni", "Network path", "File path"],
+        "correct": 1
+      },
+      {
+        "question": "WeakRef nima uchun kerak?",
+        "options": ["Zaif dastur yaratish", "Object'ga weak reference yaratish", "Performance", "Error handling"],
+        "correct": 1
+      },
+      {
+        "question": "Atomics object nima uchun ishlatiladi?",
+        "options": ["Atomic operations shared memory'da", "Molecule yaratish", "Array operatsiyalari", "String operatsiyalari"],
+        "correct": 0
+      },
+      {
+        "question": "Tail call optimization nima?",
+        "options": ["Funksiya oxiridagi optimizatsiya", "Array optimizatsiya", "String optimizatsiya", "Loop optimizatsiya"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "language": "Java",
+    "level": "Junior",
+    "questions": [
+      {
+        "question": "Java'da asosiy metod qanday yoziladi?",
+        "options": ["function main()", "public static void main(String[] args)", "def main():", "main() {}"],
+        "correct": 1
+      },
+      {
+        "question": "Java'da konsol'ga chiqarish uchun qaysi metod ishlatiladi?",
+        "options": ["print()", "console.log()", "System.out.println()", "echo()"],
+        "correct": 2
+      },
+      {
+        "question": "int ma'lumot turi qancha xotira oladi?",
+        "options": ["2 byte", "4 byte", "8 byte", "16 byte"],
+        "correct": 1
+      },
+      {
+        "question": "String'ni birlashtirish uchun qaysi operator ishlatiladi?",
+        "options": ["+", "&", ".", "concat"],
+        "correct": 0
+      },
+      {
+        "question": "Java'da class yaratish uchun qaysi kalit so'z ishlatiladi?",
+        "options": ["class", "Class", "new", "create"],
+        "correct": 0
+      },
+      {
+        "question": "Public modifier nima bildiradi?",
+        "options": ["Faqat shu class'da ko'rinadi", "Hamma joyda ko'rinadi", "Faqat package'da", "Faqat subclass'da"],
+        "correct": 1
+      },
+      {
+        "question": "Array yaratishning to'g'ri usuli qaysi?",
+        "options": ["int[] arr = new int[5]", "int arr[5]", "array int arr", "arr = [5]"],
+        "correct": 0
+      },
+      {
+        "question": "Loop'dan chiqish uchun qaysi kalit so'z ishlatiladi?",
+        "options": ["exit", "break", "stop", "end"],
+        "correct": 1
+      },
+      {
+        "question": "Constructor nima?",
+        "options": ["Oddiy metod", "Object yaratuvchi maxsus metod", "O'zgaruvchi", "Class nomi"],
+        "correct": 1
+      },
+      {
+        "question": "Static metod nima?",
+        "options": ["Object yaratish kerak", "Class nomi orqali chaqiriladi", "Private metod", "Abstract metod"],
+        "correct": 1
+      },
+      {
+        "question": "Java'da izoh qanday yoziladi?",
+        "options": ["# comment", "// comment", "/* comment */", "B va C to'g'ri"],
+        "correct": 3
+      },
+      {
+        "question": "Final kalit so'zi nima uchun ishlatiladi?",
+        "options": ["Oxirgi metod", "O'zgarmas qilish", "Tez qilish", "Private qilish"],
+        "correct": 1
+      },
+      {
+        "question": "Java'da boolean qiymatlari qanday?",
+        "options": ["true/false", "True/False", "1/0", "yes/no"],
+        "correct": 0
+      },
+      {
+        "question": "Qaysi operator qoldiqni beradi?",
+        "options": ["/", "%", "//", "mod"],
+        "correct": 1
+      },
+      {
+        "question": "String qiymatini taqqoslash uchun qaysi metod ishlatiladi?",
+        "options": ["==", "=", ".equals()", ".compare()"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "language": "Java",
+    "level": "Middle",
+    "questions": [
+      {
+        "question": "Interface va abstract class o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "Interface'da implemented metodlar bo'lmaydi (Java 7)", "Abstract tezroq", "Interface faqat constant uchun"],
+        "correct": 1
+      },
+      {
+        "question": "Overloading va overriding o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "Overloading bir xil nomdagi metodlar, overriding meros olish", "Overriding tezroq", "Overloading faqat constructor uchun"],
+        "correct": 1
+      },
+      {
+        "question": "Try-catch-finally blokida finally qachon ishlamaydi?",
+        "options": ["Hech qachon", "System.exit() chaqirilsa", "Exception bo'lsa", "Har doim ishlaydi"],
+        "correct": 1
+      },
+      {
+        "question": "String immutable ekanligining afzalligi nima?",
+        "options": ["Tez", "Thread-safe", "Kam xotira", "O'zgartirib bo'ladi"],
+        "correct": 1
+      },
+      {
+        "question": "ArrayList va LinkedList o'rtasidagi asosiy farq?",
+        "options": ["Farqi yo'q", "ArrayList indexga tez kiradi, LinkedList insert/delete tez", "LinkedList har doim yaxshi", "ArrayList faqat integer uchun"],
+        "correct": 1
+      },
+      {
+        "question": "Generics nima uchun kerak?",
+        "options": ["Tezlik", "Type safety", "Kam kod", "Memory"],
+        "correct": 1
+      },
+      {
+        "question": "Lambda expression nima?",
+        "options": ["Loop", "Anonim funksiya", "Class", "Interface"],
+        "correct": 1
+      },
+      {
+        "question": "Stream API nima uchun kerak?",
+        "options": ["Fayl o'qish", "Functional programming va collection operatsiyalari", "Network", "GUI"],
+        "correct": 1
+      },
+      {
+        "question": "Synchronized kalit so'zi nima qiladi?",
+        "options": ["Tezlashtiradi", "Thread safety ta'minlaydi", "Memory tozalaydi", "Exception handle qiladi"],
+        "correct": 1
+      },
+      {
+        "question": "Checked va unchecked exception o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "Checked compile time'da tekshiriladi", "Unchecked xavfliroq", "Checked faqat test uchun"],
+        "correct": 1
+      },
+      {
+        "question": "Enum nima?",
+        "options": ["Raqam", "Named konstantalar to'plami", "String", "Class"],
+        "correct": 1
+      },
+      {
+        "question": "Static nested class va inner class farqi?",
+        "options": ["Farqi yo'q", "Static outer class instancesiz ishlaydi", "Inner tezroq", "Static faqat metodlar uchun"],
+        "correct": 1
+      },
+      {
+        "question": "Autoboxing nima?",
+        "options": ["Avtomatik paketlash", "Primitive'ni wrapper class'ga avtomatik o'tkazish", "Memory tozalash", "Thread yaratish"],
+        "correct": 1
+      },
+      {
+        "question": "Composition va inheritance o'rtasida qaysi yaxshiroq?",
+        "options": ["Inheritance har doim", "Composition ko'pincha moslashuvchanroq", "Farqi yo'q", "Composition sekinroq"],
+        "correct": 1
+      },
+      {
+        "question": "Volatile kalit so'zi nima qiladi?",
+        "options": ["Tezlashtiradi", "Variable'ni cache'siz memory'dan o'qiydi", "Exception beradi", "Final qiladi"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "language": "Java",
+    "level": "Senior",
+    "questions": [
+      {
+        "question": "JVM, JRE va JDK o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "JVM executor, JRE runtime, JDK development kit", "JVM eng katta", "Barchasi bir xil"],
+        "correct": 1
+      },
+      {
+        "question": "Garbage Collection qanday ishlaydi?",
+        "options": ["Hech qanday", "Mark va sweep algoritmi bilan unused objektlarni tozalaydi", "Dasturchi boshqaradi", "Avtomatik emas"],
+        "correct": 1
+      },
+      {
+        "question": "Memory leak Java'da qanday yuz beradi?",
+        "options": ["Hech qachon", "Reference olib tashlanmasa", "Har doim", "Faqat C++'da"],
+        "correct": 1
+      },
+      {
+        "question": "ThreadLocal nima uchun kerak?",
+        "options": ["Thread yaratish", "Har bir thread uchun alohida qiymat", "Thread o'chirish", "Sinxronizatsiya"],
+        "correct": 1
+      },
+      {
+        "question": "Reflection API nima uchun kerak?",
+        "options": ["GUI", "Runtime'da class strukturasini tekshirish", "Testing", "Deployment"],
+        "correct": 1
+      },
+      {
+        "question": "Fork/Join framework nima?",
+        "options": ["Git", "Parallel task processing", "Database", "Network"],
+        "correct": 1
+      },
+      {
+        "question": "CompletableFuture nima?",
+        "options": ["Kelajakni ko'rish", "Asynchronous programming", "Time library", "Date formatter"],
+        "correct": 1
+      },
+      {
+        "question": "ConcurrentHashMap qanday thread-safe?",
+        "options": ["Synchronized metodlar", "Segment-based locking", "Lock yo'q", "Single thread"],
+        "correct": 1
+      },
+      {
+        "question": "Weak, Soft, Phantom reference farqlari?",
+        "options": ["Farqi yo'q", "GC bilan munosabatlari boshqacha", "Weak eng kuchli", "Phantom eng ko'p ishlatiladigan"],
+        "correct": 1
+      },
+      {
+        "question": "Classloader hierarchy qanday ishlaydi?",
+        "options": ["Bitta classloader", "Bootstrap, Extension, Application classloader'lar", "Random", "OS boshqaradi"],
+        "correct": 1
+      },
+      {
+        "question": "Deadlock qanday oldini olish mumkin?",
+        "options": ["Iloji yo'q", "Lock ordering, timeout, deadlock detection", "Faqat single thread ishlatish", "Synchronized ishlatmaslik"],
+        "correct": 1
+      },
+      {
+        "question": "Java Memory Model nima?",
+        "options": ["RAM", "Thread'lar o'rtasida memory visibility qoidalari", "Hard disk", "Cache"],
+        "correct": 1
+      },
+      {
+        "question": "Happens-before relationship nima?",
+        "options": ["Vaqt", "Memory visibility kafolati", "Thread yaratish", "Lock mexanizmi"],
+        "correct": 1
+      },
+      {
+        "question": "G1 Garbage Collector nimasi bilan yaxshi?",
+        "options": ["Eng tez", "Predictable pause times", "Kam xotira", "Eng eski"],
+        "correct": 1
+      },
+      {
+        "question": "Method handle nima?",
+        "options": ["Exception handling", "Direct method reference", "Lambda", "Annotation"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "language": "C++",
+    "level": "Junior",
+    "questions": [
+      {
+        "question": "C++ dasturining kirish nuqtasi qaysi?",
+        "options": ["start()", "main()", "begin()", "run()"],
+        "correct": 1
+      },
+      {
+        "question": "cout obyekti nima uchun ishlatiladi?",
+        "options": ["Kirish uchun", "Chiqish uchun", "Fayl o'qish", "Xotira ajratish"],
+        "correct": 1
+      },
+      {
+        "question": "Quyidagi qaysi biri to'g'ri o'zgaruvchi e'loni?",
+        "options": ["int x;", "x int;", "integer x;", "var x;"],
+        "correct": 0
+      },
+      {
+        "question": "Include direktiva nima qiladi?",
+        "options": ["Loop yaratadi", "Kutubxonani ulaydi", "Funksiya yaratadi", "Class yaratadi"],
+        "correct": 1
+      },
+      {
+        "question": "Pointer nima?",
+        "options": ["O'zgaruvchi", "Manzilni saqlovchi o'zgaruvchi", "Funksiya", "Class"],
+        "correct": 1
+      },
+      {
+        "question": "& operatori nima qiladi?",
+        "options": ["Qo'shish", "Manzilni olish", "Ko'paytirish", "Bo'lish"],
+        "correct": 1
+      },
+      {
+        "question": "C++'da izoh qanday yoziladi?",
+        "options": ["# comment", "// comment", "/* comment */", "B va C to'g'ri"],
+        "correct": 3
+      },
+      {
+        "question": "Namespace std nima uchun ishlatiladi?",
+        "options": ["Fayl ochish", "Standart kutubxona elementlari", "Xotira boshqarish", "Class yaratish"],
+        "correct": 1
+      },
+      {
+        "question": "Quyidagi operator natijasi: 10 % 3",
+        "options": ["3", "1", "3.33", "0"],
+        "correct": 1
+      },
+      {
+        "question": "Array elementiga qanday murojaat qilinadi?",
+        "options": ["arr.0", "arr[0]", "arr(0)", "arr{0}"],
+        "correct": 1
+      },
+      {
+        "question": "Cin obyekti nima uchun ishlatiladi?",
+        "options": ["Chiqish", "Kirish", "Fayl yozish", "Xotira tozalash"],
+        "correct": 1
+      },
+      {
+        "question": "Bool ma'lumot turi qaysi qiymatlarni oladi?",
+        "options": ["0 va 1", "true va false", "yes va no", "on va off"],
+        "correct": 1
+      },
+      {
+        "question": "Sizeof operatori nima qiladi?",
+        "options": ["Ma'lumot turi hajmini beradi", "O'zgaruvchi qiymatini beradi", "Pointer yaratadi", "Funksiya chaqiradi"],
+        "correct": 0
+      },
+      {
+        "question": "Reference nima?",
+        "options": ["Nusxa", "O'zgaruvchiga taxallus", "Pointer", "Array"],
+        "correct": 1
+      },
+      {
+        "question": "Const kalit so'zi nima qiladi?",
+        "options": ["Tezlashtiradi", "O'zgarmaslik beradi", "Xotira tozalaydi", "Type o'zgartiradi"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "language": "C++",
+    "level": "Middle",
+    "questions": [
+      {
+        "question": "Constructor va destructor o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "Constructor yaratadi, destructor tozalaydi", "Destructor tezroq", "Constructor faqat bitta bo'ladi"],
+        "correct": 1
+      },
+      {
+        "question": "Virtual function nima uchun kerak?",
+        "options": ["Tezlik", "Polymorphism", "Memory", "Debugging"],
+        "correct": 1
+      },
+      {
+        "question": "Stack va heap o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "Stack avtomatik, heap dinamik", "Heap tezroq", "Stack kattaroq"],
+        "correct": 1
+      },
+      {
+        "question": "New va malloc o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "New constructor chaqiradi", "Malloc tezroq", "New faqat primitive uchun"],
+        "correct": 1
+      },
+      {
+        "question": "Copy constructor qachon kerak?",
+        "options": ["Har doim", "Deep copy kerak bo'lganda", "Faqat class uchun", "Hech qachon"],
+        "correct": 1
+      },
+      {
+        "question": "Operator overloading nima?",
+        "options": ["Operator o'chirish", "Operatorga yangi ma'no berish", "Operator yaratish", "Operator nusxalash"],
+        "correct": 1
+      },
+      {
+        "question": "Friend function nima?",
+        "options": ["Do'stona funksiya", "Private memberlarga kiradigan tashqi funksiya", "Class metodi", "Virtual funksiya"],
+        "correct": 1
+      },
+      {
+        "question": "Template nima uchun kerak?",
+        "options": ["Dizayn", "Generic programming", "Speed", "Debugging"],
+        "correct": 1
+      },
+      {
+        "question": "Exception handling qanday qilinadi?",
+        "options": ["if-else", "try-catch", "switch", "goto"],
+        "correct": 1
+      },
+      {
+        "question": "Inline function nima?",
+        "options": ["Katta funksiya", "Kodni to'g'ridan-to'g'ri qo'yish", "Virtual funksiya", "Friend funksiya"],
+        "correct": 1
+      },
+      {
+        "question": "Static class member nima?",
+        "options": ["O'zgarmas", "Hamma instance'lar uchun umumiy", "Tez", "Private"],
+        "correct": 1
+      },
+      {
+        "question": "Multiple inheritance'da diamond problem nima?",
+        "options": ["Dizayn muammosi", "Meros olishda ambiguity", "Performance muammosi", "Memory leak"],
+        "correct": 1
+      },
+      {
+        "question": "Const member function nima?",
+        "options": ["Doimiy funksiya", "Obyekt holatini o'zgartirmaydigan funksiya", "Static funksiya", "Private funksiya"],
+        "correct": 1
+      },
+      {
+        "question": "STL nima?",
+        "options": ["Language", "Standard Template Library", "Compiler", "IDE"],
+        "correct": 1
+      },
+      {
+        "question": "Vector va array o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "Vector dinamik o'lchamli", "Array tezroq", "Vector faqat int uchun"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "language": "C++",
+    "level": "Senior",
+    "questions": [
+      {
+        "question": "RAII (Resource Acquisition Is Initialization) nima?",
+        "options": ["Kutubxona", "Resource management pattern", "Algoritm", "Data structure"],
+        "correct": 1
+      },
+      {
+        "question": "Smart pointerlar (unique_ptr, shared_ptr) nima uchun kerak?",
+        "options": ["Tezlik", "Avtomatik memory management", "Debugging", "Type safety"],
+        "correct": 1
+      },
+      {
+        "question": "Move semantics nima?",
+        "options": ["Obyektni ko'chirish", "Ownership transfer", "Nusxalash", "O'chirish"],
+        "correct": 1
+      },
+      {
+        "question": "RVO (Return Value Optimization) nima?",
+        "options": ["Algorithm", "Compiler optimization", "Library", "Pattern"],
+        "correct": 1
+      },
+      {
+        "question": "Variadic templates nima?",
+        "options": ["O'zgaruvchan template parametrlar", "Array template", "Funksiya template", "Class template"],
+        "correct": 0
+      },
+      {
+        "question": "Lambda expression C++11'da nima beradi?",
+        "options": ["Tezlik", "Inline anonymous functions", "Memory", "Type safety"],
+        "correct": 1
+      },
+      {
+        "question": "Perfect forwarding nima?",
+        "options": ["Xatosiz yuborish", "Template argumentlarni saqlash", "Email yuborish", "Exception forwarding"],
+        "correct": 1
+      },
+      {
+        "question": "Virtual destructor qachon kerak?",
+        "options": ["Har doim", "Inheritance va polymorphism bo'lganda", "Faqat template'da", "Hech qachon"],
+        "correct": 1
+      },
+      {
+        "question": "Vtable nima?",
+        "options": ["Ma'lumotlar jadvali", "Virtual funksiya pointerlari jadvali", "Hash table", "Array"],
+        "correct": 1
+      },
+      {
+        "question": "Memory ordering (std::memory_order) nima?",
+        "options": ["Memory sort", "Atomic operatsiyalar uchun sinxronizatsiya", "Memory allocation", "Garbage collection"],
+        "correct": 1
+      },
+      {
+        "question": "SFINAE nima?",
+        "options": ["Library", "Substitution Failure Is Not An Error", "Algorithm", "Data structure"],
+        "correct": 1
+      },
+      {
+        "question": "Constexpr nima beradi?",
+        "options": ["Runtime constant", "Compile-time evaluation", "Type safety", "Memory optimization"],
+        "correct": 1
+      },
+      {
+        "question": "Type traits nima uchun kerak?",
+        "options": ["Debugging", "Compile-time type introspection", "Runtime checking", "Memory management"],
+        "correct": 1
+      },
+      {
+        "question": "Copy elision nima?",
+        "options": ["Copy o'chirish", "Compiler optimization (nusxa olmaslik)", "Error", "Warning"],
+        "correct": 1
+      },
+      {
+        "question": "Aggregate initialization nima?",
+        "options": ["Sum hisoblash", "Oddiy struct/array'larni to'ldirish", "Memory allocation", "Inheritance"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "language": "C#",
+    "level": "Junior",
+    "questions": [
+      {
+        "question": "C#'da asosiy metod qanday yoziladi?",
+        "options": ["function Main()", "static void Main(string[] args)", "def main():", "main() {}"],
+        "correct": 1
+      },
+      {
+        "question": "Console'ga chiqarish uchun qaysi metod ishlatiladi?",
+        "options": ["print()", "Console.WriteLine()", "System.out.println()", "echo()"],
+        "correct": 1
+      },
+      {
+        "question": "C#'da o'zgaruvchi e'lon qilish uchun qaysi kalit so'z ishlatiladi?",
+        "options": ["var", "let", "dim", "A va B to'g'ri"],
+        "correct": 3
+      },
+      {
+        "question": "String'ni birlashtirish uchun qaysi operator ishlatiladi?",
+        "options": ["+", "&", ".", "concat"],
+        "correct": 0
+      },
+      {
+        "question": "Namespace nima uchun kerak?",
+        "options": ["Tezlik", "Kod tashkil qilish", "Memory", "Debugging"],
+        "correct": 1
+      },
+      {
+        "question": "Property nima?",
+        "options": ["O'zgaruvchi", "Getter va setter bilan field", "Metod", "Class"],
+        "correct": 1
+      },
+      {
+        "question": "C#'da izoh qanday yoziladi?",
+        "options": ["# comment", "// comment", "/* comment */", "B va C to'g'ri"],
+        "correct": 3
+      },
+      {
+        "question": "Array yaratishning to'g'ri usuli qaysi?",
+        "options": ["int[] arr = new int[5]", "int arr[5]", "array int arr", "arr = [5]"],
+        "correct": 0
+      },
+      {
+        "question": "Null qiymatni tekshirish uchun qaysi operator ishlatiladi?",
+        "options": ["==", "is", "??", "A va C to'g'ri"],
+        "correct": 3
+      },
+      {
+        "question": "Using direktiva nima qiladi?",
+        "options": ["Fayl ochish", "Namespace import qilish", "Xotira tozalash", "Loop yaratish"],
+        "correct": 1
+      },
+      {
+        "question": "Foreach loop qanday ishlatiladi?",
+        "options": ["foreach (var item in list)", "for each item in list", "foreach item in list", "for (item in list)"],
+        "correct": 0
+      },
+      {
+        "question": "Bool ma'lumot turi qaysi qiymatlarni oladi?",
+        "options": ["0 va 1", "true va false", "yes va no", "True va False"],
+        "correct": 1
+      },
+      {
+        "question": "String interpolation qanday qilinadi?",
+        "options": ["'text ' + var", "$\"text {var}\"", "\"text \" + var", "f\"text {var}\""],
+        "correct": 1
+      },
+      {
+        "question": "Try-catch nima uchun kerak?",
+        "options": ["Loop yaratish", "Exception handling", "Debugging", "Testing"],
+        "correct": 1
+      },
+      {
+        "question": "Class yaratish uchun qaysi kalit so'z ishlatiladi?",
+        "options": ["class", "Class", "new", "create"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "language": "C#",
+    "level": "Middle",
+    "questions": [
+      {
+        "question": "LINQ nima?",
+        "options": ["Library", "Language Integrated Query", "Compiler", "IDE"],
+        "correct": 1
+      },
+      {
+        "question": "Async va await qanday ishlaydi?",
+        "options": ["Sinxron", "Asynchronous operatsiyalar uchun", "Parallel", "Threading"],
+        "correct": 1
+      },
+      {
+        "question": "Delegate nima?",
+        "options": ["Class", "Type-safe function pointer", "Interface", "Struct"],
+        "correct": 1
+      },
+      {
+        "question": "Event nima?",
+        "options": ["Funksiya", "Publisher-subscriber pattern", "Loop", "Exception"],
+        "correct": 1
+      },
+      {
+        "question": "IEnumerable va IQueryable o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "IQueryable expression tree ishlatadi", "IEnumerable tezroq", "IQueryable faqat database uchun"],
+        "correct": 1
+      },
+      {
+        "question": "Extension method nima?",
+        "options": ["Class kengaytirish", "Mavjud typega metod qo'shish", "Inheritance", "Interface"],
+        "correct": 1
+      },
+      {
+        "question": "Nullable types nima?",
+        "options": ["Null bo'ladigan value types", "Reference types", "Pointer", "Array"],
+        "correct": 0
+      },
+      {
+        "question": "Anonymous type nima?",
+        "options": ["Nomsiz class", "Compile time yaratilgan class", "Runtime class", "Abstract class"],
+        "correct": 1
+      },
+      {
+        "question": "Generics nima uchun kerak?",
+        "options": ["Tezlik", "Type safety va reusability", "Memory", "Debugging"],
+        "correct": 1
+      },
+      {
+        "question": "Reflection nima?",
+        "options": ["Mirror", "Runtime'da type inspection", "Debugging", "Compilation"],
+        "correct": 1
+      },
+      {
+        "question": "Boxing va unboxing nima?",
+        "options": ["Paketlash", "Value type'ni reference type'ga o'tkazish", "Memory allocation", "Type casting"],
+        "correct": 1
+      },
+      {
+        "question": "Sealed class nima?",
+        "options": ["Private class", "Meros olish mumkin emas", "Abstract class", "Static class"],
+        "correct": 1
+      },
+      {
+        "question": "Interface va abstract class farqi?",
+        "options": ["Farqi yo'q", "Interface faqat contract, abstract class implementation ham bo'lishi mumkin", "Interface tezroq", "Abstract har doim yaxshi"],
+        "correct": 1
+      },
+      {
+        "question": "Tuple nima?",
+        "options": ["Array", "Fixed-size collection of different types", "List", "Dictionary"],
+        "correct": 1
+      },
+      {
+        "question": "IDisposable interface nima uchun kerak?",
+        "options": ["Memory", "Resource cleanup", "Type safety", "Threading"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "language": "PHP",
+    "level": "Junior",
+    "questions": [
+      {
+        "question": "PHP fayli qanday boshlanadi?",
+        "options": ["<php>", "<?php", "<?", "B va C to'g'ri"],
+        "correct": 3
+      },
+      {
+        "question": "Echo va print o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "Echo tezroq, print qiymat qaytaradi", "Print tezroq", "Echo faqat string uchun"],
+        "correct": 1
+      },
+      {
+        "question": "O'zgaruvchi qanday e'lon qilinadi?",
+        "options": ["$variable", "var variable", "variable", "let $variable"],
+        "correct": 0
+      },
+      {
+        "question": "String'ni birlashtirish uchun qaysi operator?",
+        "options": ["+", ".", "&", "concat"],
+        "correct": 1
+      },
+      {
+        "question": "Array yaratish uchun qaysi funksiya?",
+        "options": ["array()", "[]", "Array()", "A va B to'g'ri"],
+        "correct": 3
+      },
+      {
+        "question": "Izoh qanday yoziladi?",
+        "options": ["// comment", "# comment", "/* comment */", "Hammasi to'g'ri"],
+        "correct": 3
+      },
+      {
+        "question": "$_GET va $_POST o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "$_GET URL'da ko'rinadi, $_POST yo'q", "$_POST tezroq", "$_GET xavfli"],
+        "correct": 1
+      },
+      {
+        "question": "Funksiya qanday e'lon qilinadi?",
+        "options": ["function name()", "def name()", "func name()", "name function()"],
+        "correct": 0
+      },
+      {
+        "question": "Include va require o'rtasidagi farq?",
+        "options": ["Farqi yo'q", "Require xatolik berganda to'xtaydi", "Include tezroq", "Require faqat bitta marta"],
+        "correct": 1
+      },
+      {
+        "question": "Qaysi super global o'zgaruvchi?",
+        "options": ["$_SERVER", "$SERVER", "$GLOBAL", "$SUPER"],
+        "correct": 0
+      },
+      {
+        "question": "Isset() funksiyasi nima qiladi?",
+        "options": ["O'zgaruvchi borligini tekshiradi", "Qiymat beradi", "O'chiradi", "Yaratadi"],
+        "correct": 0
+      },
+      {
+        "question": "Session qanday boshlanadi?",
+        "options": ["start_session()", "session_start()", "begin_session()", "new Session()"],
+        "correct": 1
+      },
+      {
+        "question": "Cookie qanday o'rnatiladi?",
+        "options": ["setCookie()", "setcookie()", "cookie_set()", "new Cookie()"],
+        "correct": 1
+      },
+      {
+        "question": "Array elementini olish uchun?",
+        "options": ["$arr[0]", "$arr.0", "$arr->0", "$arr(0)"],
+        "correct": 0
+      },
+      {
+        "question": "String uzunligini olish uchun?",
+        "options": ["length()", "strlen()", "str_length()", "size()"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "language": "PHP",
+    "level": "Middle",
+    "questions": [
+      {
+        "question": "Namespace nima uchun kerak?",
+        "options": ["Tezlik", "Conflict'larni oldini olish", "Memory", "Debugging"],
+        "correct": 1
+      },
+      {
+        "question": "Trait nima?",
+        "options": ["Class", "Kod qayta ishlatish mexanizmi", "Interface", "Function"],
+        "correct": 1
+      },
+      {
+        "question": "PDO nima?",
+        "options": ["Library", "PHP Data Objects - database abstraction", "Framework", "Tool"],
+        "correct": 1
+      },
+      {
+        "question": "Prepared statements nima uchun kerak?",
+        "options": ["Tezlik", "SQL injection oldini olish", "Memory", "Debugging"],
+        "correct": 1
+      },
+      {
+        "question": "Magic methods nima?",
+        "options": ["__ bilan boshlangan maxsus metodlar", "Tez metodlar", "Private metodlar", "Static metodlar"],
+        "correct": 0
+      },
+      {
+        "question": "Autoloading nima?",
+        "options": ["Avtomatik yuklash", "Classlarni avtomatik include qilish", "Cache", "Optimization"],
+        "correct": 1
+      },
+      {
+        "question": "Abstract class va interface farqi?",
+        "options": ["Farqi yo'q", "Abstract class implementation bo'lishi mumkin", "Interface tezroq", "Abstract har doim yaxshi"],
+        "correct": 1
+      },
+      {
+        "question": "Type hinting nima?",
+        "options": ["Maslahat", "Parametr tipini belgilash", "Error", "Comment"],
+        "correct": 1
+      },
+      {
+        "question": "Composer nima?",
+        "options": ["Editor", "Dependency manager", "Framework", "Database"],
+        "correct": 1
+      },
+      {
+        "question": "PSR nima?",
+        "options": ["Framework", "PHP Standards Recommendations", "Library", "Tool"],
+        "correct": 1
+      },
+      {
+        "question": "Late static binding nima?",
+        "options": ["Kechikish", "self vs static farqi", "Error", "Optimization"],
+        "correct": 1
+      },
+      {
+        "question": "Closure nima?",
+        "options": ["Yopilish", "Anonymous function", "Class", "Interface"],
+        "correct": 1
+      },
+      {
+        "question": "Yield keyword nima qiladi?",
+        "options": ["Return", "Generator yaratish", "Break", "Continue"],
+        "correct": 1
+      },
+      {
+        "question": "SPL nima?",
+        "options": ["Framework", "Standard PHP Library", "Tool", "Database"],
+        "correct": 1
+      },
+      {
+        "question": "Error va Exception farqi?",
+        "options": ["Farqi yo'q", "Error jiddiyroq", "Exception tezroq", "Error catch qilib bo'lmaydi"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "language": "Umumiy",
+    "level": "Umumiy",
+    "questions": [
+      {
+        "question": "Algorithm nima?",
+        "options": ["Dastur", "Muammoni yechish qadamlari", "Til", "Framework"],
+        "correct": 1
+      },
+      {
+        "question": "Binary search time complexity qanday?",
+        "options": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
+        "correct": 1
+      },
+      {
+        "question": "Stack ma'lumotlar strukturasi qaysi printsipda ishlaydi?",
+        "options": ["FIFO", "LIFO", "LILO", "Random"],
+        "correct": 1
+      },
+      {
+        "question": "API nima?",
+        "options": ["Dastur", "Application Programming Interface", "Database", "Framework"],
+        "correct": 1
+      },
+      {
+        "question": "Git nima uchun kerak?",
+        "options": ["Testing", "Version control", "Deployment", "Database"],
+        "correct": 1
+      },
+      {
+        "question": "REST API nima?",
+        "options": ["Database", "HTTP orqali web service", "Framework", "Language"],
+        "correct": 1
+      },
+      {
+        "question": "JSON nima?",
+        "options": ["Dasturlash tili", "Ma'lumot formati", "Database", "Framework"],
+        "correct": 1
+      },
+      {
+        "question": "HTTP va HTTPS farqi?",
+        "options": ["Farqi yo'q", "HTTPS shifrlangan", "HTTP tezroq", "HTTPS yangi"],
+        "correct": 1
+      },
+      {
+        "question": "SQL nima?",
+        "options": ["Dasturlash tili", "Database so'rov tili", "Framework", "Tool"],
+        "correct": 1
+      },
+      {
+        "question": "OOP nima?",
+        "options": ["Algorithm", "Object Oriented Programming", "Database", "Framework"],
+        "correct": 1
+      },
+      {
+        "question": "Recursion nima?",
+        "options": ["Loop", "Funksiya o'zini chaqiradi", "Error", "Optimization"],
+        "correct": 1
+      },
+      {
+        "question": "Big O notation nima uchun kerak?",
+        "options": ["Kod yozish", "Algorithm complexity baholash", "Testing", "Debugging"],
+        "correct": 1
+      },
+      {
+        "question": "Array va Linked List farqi?",
+        "options": ["Farqi yo'q", "Array contiguous, Linked List dinamik", "Array tezroq", "Linked List kichikroq"],
+        "correct": 1
+      },
+      {
+        "question": "Hash table qanday ishlaydi?",
+        "options": ["Linear search", "Key-value mapping", "Sort", "Stack"],
+        "correct": 1
+      },
+      {
+        "question": "TCP va UDP farqi?",
+        "options": ["Farqi yo'q", "TCP ishonchli, UDP tez", "UDP ishonchli", "TCP yangi"],
+        "correct": 1
+      }
+    ]
+  }
+]
