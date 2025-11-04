@@ -35,7 +35,7 @@
       },
       {
         "question": "Quyidagi kod natijasi: type(3.14)",
-        "options": ["<class 'int'>", "<class 'float'>", "<class 'double'>", "<class 'number'>"],
+        "options": ["&lt;class 'int'&gt;", "&lt;class 'float'&gt;", "&lt;class 'double'&gt;", "&lt;class 'number'&gt;"],
         "correct": 1
       },
       {
