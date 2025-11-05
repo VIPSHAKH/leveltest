@@ -108,9 +108,87 @@ Mobile qurilmalarda:
 
 ## 🔒 Xavfsizlik
 
-- API key alohida `config.js` faylda saqlanadi
-- Foydalanuvchi network inspectorida API keyni ko'ra olmaydi
-- `.gitignore` ga `config.js` ni qo'shing!
+**MUHIM ESLATMA:** Frontend JavaScript fayllarida API keyni saqlash 100% xavfsiz emas! 
+
+### ⚠️ Muammo
+Developer Tools orqali har qanday foydalanuvchi sizning kodingizni ko'rishi mumkin, shu jumladan API keyni ham.
+
+### ✅ Yechimlar
+
+#### 1. Backend Server Ishlatish (Eng Xavfsiz)
+- Node.js/Python backend yarating
+- API keyni backend da saqlang
+- Frontend faqat backend ga so'rov yuboradi
+- Foydalanuvchi hech qachon API keyni ko'rmaydi
+
+#### 2. Environment Variables (Tavsiya Etiladi)
+- `.env` fayl yarating
+- API keyni u yerda saqlang
+- Build toollar (Vite, Webpack) orqali inject qiling
+
+#### 3. Obfuscation (Hozirgi Versiya)
+- API key base64 formatda kodlangan
+- Bu faqat oddiy ko'rinishdan yashiradi
+- Texnik bilimli odam dekod qilishi mumkin
+- Bu vaqtinchalik yechim!
+
+### 🛡️ Himoya Choralari
+
+1. **API Key Restrictions (Google Cloud)**
+   - Google Cloud Console ga kiring
+   - API key sozlamalariga o'ting
+   - HTTP referrer restrictions qo'shing
+   - Faqat o'z domeningizdan so'rovlarga ruxsat bering
+
+2. **Rate Limiting**
+   - Google Cloud da API uchun request limit qo'ying
+   - Bu ortiqcha xarajatlardan himoya qiladi
+
+3. **Git da Yashirish**
+   ```bash
+   # .gitignore faylida
+   config.js
+   .env
+   ```
+
+4. **API Key ni Tez-Tez Yangilash**
+   - Har oyda yangi API key yarating
+   - Eski keyni o'chiring
+
+### 🚀 Production uchun
+
+**Backend Example (Node.js/Express):**
+
+```javascript
+// server.js
+const express = require('express');
+const app = express();
+
+app.post('/api/analyze', async (req, res) => {
+  const API_KEY = process.env.GEMINI_API_KEY; // Server-side
+  
+  const response = await fetch(
+    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`,
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(req.body)
+    }
+  );
+  
+  const data = await response.json();
+  res.json(data);
+});
+```
+
+### ⚡ Hozirgi Holat
+
+- API key base64 da kodlangan ✓
+- `.gitignore` da config.js bor ✓
+- `config.example.js` namunasi bor ✓
+- **Lekin:** Bu hali ham Developer Tools da ko'rinadi ⚠️
+
+**Xulosa:** Haqiqiy production loyiha uchun backend server yarating!
 
 ## 🛠️ Texnologiyalar
 
