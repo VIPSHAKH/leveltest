@@ -55,7 +55,7 @@
       },
       {
         "question": "Dictionary yaratishning to'g'ri usuli qaysi?",
-        "options": ["d = {}", "d = []", "d = ()", "d = <>"],
+        "options": ["d = {}", "d = []", "d = ()", "d = &lt;&gt;"],
         "correct": 0
       },
       {
@@ -303,7 +303,7 @@
       },
       {
         "question": "Object yaratishning to'g'ri usuli qaysi?",
-        "options": ["let obj = {}", "let obj = []", "let obj = ()", "let obj = <>"],
+        "options": ["let obj = {}", "let obj = []", "let obj = ()", "let obj = &lt;&gt;"],
         "correct": 0
       },
       {
@@ -1139,7 +1139,7 @@
     "questions": [
       {
         "question": "PHP fayli qanday boshlanadi?",
-        "options": ["<php>", "<?php", "<?", "B va C to'g'ri"],
+        "options": ["&lt;php&gt;", "&lt;?php", "&lt;?", "B va C to'g'ri"],
         "correct": 3
       },
       {
@@ -1204,7 +1204,7 @@
       },
       {
         "question": "Array elementini olish uchun?",
-        "options": ["$arr[0]", "$arr.0", "$arr->0", "$arr(0)"],
+        "options": ["$arr[0]", "$arr.0", "$arr-&gt;0", "$arr(0)"],
         "correct": 0
       },
       {

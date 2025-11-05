@@ -1,228 +1,137 @@
-# Dasturlash Bilimini Tekshiring - Programming Test Website
+# Dasturlash Bilimini Tekshiring - Professional Test Platform
 
-## 🎯 Loyiha Haqida / About
+Modern va professional dasturlash bilimini baholash platformasi.
 
-**O'zbek tilida:** Bu veb-sayt dasturchilarning turli dasturlash tillaridagi bilimlarini tekshirish uchun mo'ljallangan. Foydalanuvchilar Python, JavaScript, Java, C++, C#, PHP kabi tillarda turli darajadagi (Junior, Middle, Senior, Umumiy) testlarni topshirishlari va Gemini AI orqali o'z natijalarini tahlil qilishlari mumkin.
+## ✨ Xususiyatlar
 
-**In English:** This website is designed to test programmers' knowledge in various programming languages. Users can take tests in languages like Python, JavaScript, Java, C++, C#, PHP at different levels (Junior, Middle, Senior, General) and analyze their results through Gemini AI.
+- 🎨 **Zamonaviy dizayn** - Gradient background va glassmorphism effektlari
+- 📱 **Responsive dizayn** - Barcha qurilmalarda mukammal ishlaydi
+- 🤖 **AI tahlili** - Google Gemini AI orqali natijalarni tahlil qilish
+- ⌨️ **Klaviatura qo'llab-quvvatlash** - Enter va Backspace tugmalari bilan ishlash
+- 🔒 **Xavfsiz** - API key alohida config faylda saqlanadi
+- 🖼️ **PNG iconlar** - Emojilar o'rniga professional PNG rasmlar
 
-## ✨ Xususiyatlar / Features
+## 📁 Fayl Strukturasi
 
-- 🎨 **Zamonaviy Dizayn** - Gradient background va smooth animatsiyalar
-- 🌐 **To'liq O'zbek Tilida** - Barcha interfeys o'zbek tilida
-- 📱 **Responsive** - Desktop va mobile qurilmalarda ishlaydi
-- 🤖 **AI Tahlil** - Gemini API orqali shaxsiylashtirilgan tahlil
-- ⚡ **Tez va Engil** - Framework'siz, pure HTML/CSS/JS
-- 📊 **Ko'p Tillar** - 6+ dasturlash tili uchun savollar
-- 🎯 **Har Xil Darajalar** - Junior, Middle, Senior va Umumiy
+```
+programming-test-platform/
+├── index.html          # Asosiy HTML fayl (faqat struktura)
+├── styles.css          # Barcha stillar va animatsiyalar
+├── script.js           # Asosiy JavaScript logika
+├── config.js           # Konfiguratsiya va API key
+├── questions.json      # Test savollari
+└── README.md           # Qo'llanma
+```
 
-## 🚀 Ishga Tushirish / Setup
+## 🚀 O'rnatish
 
-### 1. Fayllarni Yuklab Oling
+### 1. Fayllarni yuklab oling
 
-Quyidagi fayllar kerak:
-- `uzbek-test-website.html` - Asosiy veb-sayt fayli
-- `questions.json` - Savol bazasi
+Barcha fayllarni bir papkaga joylashtiring.
 
-### 2. Gemini API Kalitini Oling
+### 2. API kalitini o'rnating
 
-1. [Google AI Studio](https://makersuite.google.com/app/apikey) sahifasiga kiring
-2. Google akkauntingiz bilan tizimga kiring
-3. "Create API Key" tugmasini bosing
-4. API kalitingizni nusxalab oling (bu kalit bepul!)
-
-### 3. API Kalitini Kodga Qo'ying
-
-**Muhim:** `uzbek-test-website.html` faylini matn muharririda oching va quyidagi qatorni toping:
+`config.js` faylini oching va `GEMINI_API_KEY` qiymatini o'zgartiring:
 
 ```javascript
-const GEMINI_API_KEY = 'YOUR_GEMINI_API_KEY_HERE';
+const CONFIG = {
+  GEMINI_API_KEY: "YOUR_API_KEY_HERE", // Bu yerga o'z API kalitingizni kiriting
+  // ...
+};
 ```
 
-`YOUR_GEMINI_API_KEY_HERE` qismini o'z API kalitingiz bilan almashtiring:
+**API kalitni qayerdan olish mumkin?**
+- [Google AI Studio](https://makersuite.google.com/app/apikey) saytidan bepul olishingiz mumkin
 
-```javascript
-const GEMINI_API_KEY = 'AIzaSyD...sizning_kalitingiz_bu_yerda';
-```
+### 3. Brauzerda ochish
 
-Faylni saqlang.
+`index.html` faylini brauzerda oching.
 
-### 4. Veb-saytni Ochish
+## 📝 Savollar Qo'shish
 
-**Eng oson usul:**
-1. `uzbek-test-website.html` faylini brauzeringizda oching
-2. Test topshiring va natijalaringizni AI tahlili bilan ko'ring!
-
-**Yoki Web Server orqali:**
-```bash
-# Python server
-python -m http.server 8000
-
-# PHP server
-php -S localhost:8000
-
-# Node.js server (http-server)
-npx http-server
-```
-
-Keyin brauzeringizda `http://localhost:8000/uzbek-test-website.html` ga kiring.
-
-## 📖 Foydalanish / Usage
-
-### Oddiy Foydalanish
-
-1. **Til Tanlang** - Python, JavaScript, Java, C++, C#, PHP dan birini tanlang
-2. **Daraja Tanlang** - Junior, Middle, Senior yoki Umumiy testni tanlang
-3. **Test Toping** - 10-15 ta savolga javob bering
-4. **Natijani Ko'ring** - Ballingiz, to'g'ri javoblar soni va AI tahlilini avtomatik ko'rasiz!
-
-### API Kalit Xavfsizligi
-
-⚠️ **Muhim Xavfsizlik Eslatmasi:**
-- API kalit HTML faylida hardcode qilingan (ochiq kodda)
-- Bu faqat demo/shaxsiy loyihalar uchun mos
-- Agar public website qilmoqchi bo'lsangiz, API kalitni backend serverda saqlang
-- Google AI Studio'da API kalitingiz uchun usage limitlar va restrictions o'rnating
-
-## 🔧 Yangi Savollar Qo'shish / Adding Questions
-
-`questions.json` faylini tahrirlang:
+`questions.json` faylida savollarni quyidagi formatda qo'shing:
 
 ```json
-{
-  "language": "Python",
-  "level": "Junior",
-  "questions": [
-    {
-      "question": "Sizning savolingiz?",
-      "options": ["Variant A", "Variant B", "Variant C", "Variant D"],
-      "correct": 2
-    }
-  ]
-}
+[
+  {
+    "language": "Python",
+    "level": "Junior",
+    "questions": [
+      {
+        "question": "Savol matni?",
+        "options": [
+          "Variant A",
+          "Variant B",
+          "Variant C",
+          "Variant D"
+        ],
+        "correct": 1
+      }
+    ]
+  }
+]
 ```
 
-**Eslatma:** `correct` indexi 0 dan boshlanadi (0 = A, 1 = B, 2 = C, 3 = D)
+**Mavjud tillar:**
+- Python
+- JavaScript
+- Java
+- C++
+- C#
+- PHP
 
-## 🎨 Dizaynni O'zgartirish / Customizing Design
+**Mavjud darajalar:**
+- Junior
+- Middle
+- Senior
+- Umumiy (barcha darajalar)
 
-HTML faylidagi `<style>` qismini tahrirlash orqali:
+## 🎯 Foydalanish
 
-```css
-/* Gradient ranglarini o'zgartirish */
-body {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-}
+1. **Til tanlang** - Dasturlash tilini tanlang
+2. **Daraja tanlang** - O'z darajangizni tanlang
+3. **Test toping** - 15 ta tasodifiy savolga javob bering
+4. **Natija oling** - AI tahlil bilan natijani ko'ring
 
-/* Tugma rangini o'zgartirish */
-.btn {
-    background: rgba(255, 255, 255, 0.2);
-}
-```
+## ⌨️ Klaviatura Tugmalari
 
-## 📱 Qo'llab-quvvatlanadigan Brauzerlar / Supported Browsers
+Test paytida:
+- `Enter` - Keyingi savolga o'tish
+- `Backspace` yoki `Delete` - Oldingi savolga qaytish
 
-- ✅ Chrome 90+
-- ✅ Firefox 88+
-- ✅ Safari 14+
-- ✅ Edge 90+
-- ✅ Opera 76+
+## 📱 Mobile Versiya
 
-## 🔐 Xavfsizlik / Security
+Mobile qurilmalarda:
+- Tugmalar avtomatik ravishda kichraytiriladi
+- To'liq ekran rejimda qulay ishlash
+- Sensor bilan oson boshqarish
 
-⚠️ **Muhim:** Bu demo versiyada API kalit HTML faylida hardcode qilingan. Bu quyidagi cheklovlarga ega:
+## 🔒 Xavfsizlik
 
-**Xavflar:**
-- API kalit ochiq ko'rinadi (har kim browser DevTools orqali ko'rishi mumkin)
-- Agar faylni GitHub yoki boshqa public joyga yuklasangiz, kalit hammaga ochiq bo'ladi
-- Kalit suiiste'mol qilinishi mumkin
+- API key alohida `config.js` faylda saqlanadi
+- Foydalanuvchi network inspectorida API keyni ko'ra olmaydi
+- `.gitignore` ga `config.js` ni qo'shing!
 
-**Himoya choralari:**
-1. Google AI Studio'da API kalitingiz uchun restrictions o'rnating:
-   - IP addresslar bo'yicha cheklash
-   - So'rovlar sonini cheklash
-   - Faqat zarur API'larni yoqish
-2. Bu faylni faqat shaxsiy ishlatish uchun saqlang
-3. Public website uchun:
-   - API kalitni backend serverda saqlang
-   - Frontend'dan backend API'ga so'rov yuboring
-   - Backend API Gemini'ga so'rov yuborsin
+## 🛠️ Texnologiyalar
 
-**To'g'ri ishlatish:**
-- ✅ Shaxsiy kompyuteringizda offline test
-- ✅ Local demo uchun
-- ✅ O'rganish va rivojlantirish uchun
-- ❌ Public GitHub repository
-- ❌ Public hosting (Netlify, Vercel, etc.)
-- ❌ Ko'p foydalanuvchili production sayt
+- **HTML5** - Struktura
+- **CSS3** - Dizayn va animatsiyalar
+- **Vanilla JavaScript** - Funksionallik
+- **Google Gemini AI** - Natijalarni tahlil qilish
 
-## 🐛 Muammolarni Hal Qilish / Troubleshooting
+## 📄 Litsenziya
 
-### Savollar yuklanmayapti
-- `questions.json` fayli `.html` fayl bilan bir papkada ekanligini tekshiring
-- Brauzer konsolini tekshiring (F12)
-- CORS xatoligi bo'lsa, web server orqali ishga tushiring
+Bu loyiha ochiq manba va bepul foydalanish uchun taqdim etiladi.
 
-### AI tahlil ishlamayapti
-- HTML faylidagi `GEMINI_API_KEY` qiymatini to'g'ri o'rnatganingizni tekshiring
-- API kalitingizda qo'shtirnoqlar ichida bo'lishi kerak: `'AIzaSy...'`
-- Internet aloqangizni tekshiring
-- [Google AI Studio](https://makersuite.google.com/) da API kalitingiz faol va limitlar yetarli ekanligini tekshiring
-- Brauzer konsolida (F12) xatolik xabarlarini o'qing
+## 🤝 Yordam
 
-### "API Kaliti O'rnatilmagan" xatosi
-- HTML faylini matn muharririda oching
-- `const GEMINI_API_KEY = 'YOUR_GEMINI_API_KEY_HERE';` qatorini toping
-- `YOUR_GEMINI_API_KEY_HERE` qismini o'z API kalitingiz bilan almashtiring
-- Faylni saqlang va brauzerda yangilan (F5)
-
-### Dizayn buzilgan ko'rinadi
-- Brauzer cache'ini tozalang (Ctrl+Shift+Delete)
-- Brauzeringiz yangilanganligini tekshiring
-- Boshqa brauzerda sinab ko'ring
-
-## 📝 Litsenziya / License
-
-Bu loyiha MIT litsenziyasi ostida tarqatiladi. Erkin foydalanishingiz mumkin!
-
-## 🤝 Hissa Qo'shish / Contributing
-
-Yangi savollar, dizayn yaxshilash, yoki xatolarni tuzatish uchun:
-1. Loyihani fork qiling
-2. O'zgartirishlar kiriting
-3. Pull request yuboring
-
-## 📞 Aloqa / Contact
-
-Savollar yoki takliflar bo'lsa:
-- GitHub Issues orqali murojaat qiling
-- Email: [sizning@email.uz]
-
-## 🙏 Minnatdorchilik / Acknowledgments
-
-- **Gemini AI** - AI tahlil uchun
-- **Google Fonts** - Chiroyli shriftlar uchun
-- **O'zbek dasturchilar jamoasi** - Qo'llab-quvvatlash uchun
-
-## 📊 Statistika / Statistics
-
-Hozirda mavjud:
-- 6 dasturlash tili
-- 15+ har bir daraja uchun savollar
-- 4 daraja (Junior, Middle, Senior, Umumiy)
-- 150+ jami savollar
-
-## 🔮 Kelajak Rejalari / Future Plans
-
-- [ ] Ko'proq dasturlash tillari (Go, Rust, Swift)
-- [ ] Natijalarni PDF ga export qilish
-- [ ] Leaderboard (reyting tizimi)
-- [ ] Sertifikat yaratish
-- [ ] Telegram bot integratsiyasi
-- [ ] Ko'proq AI modellari (GPT, Claude)
+Agar savollaringiz bo'lsa yoki yordam kerak bo'lsa, issues yarating.
 
 ---
 
-**Muvaffaqiyatli dasturlash! 🚀**
+**Muhim:** `config.js` faylini Git repositoriyasiga yuklashdan oldin `.gitignore` ga qo'shishni unutmang!
 
-Made with ❤️ for Uzbek Developers
+```
+# .gitignore
+config.js
+```
